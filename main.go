@@ -14,7 +14,6 @@ func main() {
 		go filter(ch, ch1, prime)
 		ch = ch1
 	}
-	fmt.Println("Hello World!")
 }
 
 func generate(ch chan int) {
